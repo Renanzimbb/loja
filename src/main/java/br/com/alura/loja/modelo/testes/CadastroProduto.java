@@ -12,7 +12,7 @@ import br.com.alura.loja.util.JPAUtil;
 
 public class CadastroProduto {
     public static void main(String[] args) {
-        //cadastrarProduto();
+        // cadastrarProduto();
 
         Long id = 1l;
         EntityManager em = JPAUtil.gEntityManager();
@@ -21,9 +21,9 @@ public class CadastroProduto {
         System.out.println(p.getPreco());
 
         List<Produto> todos = produtoDao.buscarPorNomeDaCategoria("Celulares");
-        todos.forEach(p2 ->System.out.println(p2.getNome()));
+        todos.forEach(p2 -> System.out.println(p2.getNome()));
 
-        BigDecimal predoDoProduto = produtoDao.buscarPrecoDoProdutoComNome("Iphone 16");
+        BigDecimal predoDoProduto = produtoDao.buscarPrecoDoProdutoComNome("Iphone 1");
         System.out.println(predoDoProduto);
     }
 

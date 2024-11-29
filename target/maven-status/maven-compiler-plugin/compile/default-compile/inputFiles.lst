@@ -1,3 +1,10 @@
+/home/wsl/git/loja/src/main/java/br/com/alura/loja/dao/ProdutoDao.java
+/home/wsl/git/loja/src/main/java/br/com/alura/loja/util/JPAUtil.java
 /home/wsl/git/loja/src/main/java/br/com/alura/loja/modelo/Produto.java
+/home/wsl/git/loja/src/main/java/br/com/alura/loja/modelo/Cliente.java
+/home/wsl/git/loja/src/main/java/br/com/alura/loja/modelo/Categoria.java
 /home/wsl/git/loja/src/main/java/br/com/alura/Main.java
+/home/wsl/git/loja/src/main/java/br/com/alura/loja/dao/CategoriaDao.java
+/home/wsl/git/loja/src/main/java/br/com/alura/loja/modelo/ItemPedido.java
+/home/wsl/git/loja/src/main/java/br/com/alura/loja/modelo/Pedido.java
 /home/wsl/git/loja/src/main/java/br/com/alura/loja/modelo/testes/CadastroProduto.java

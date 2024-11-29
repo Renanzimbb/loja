@@ -11,11 +11,10 @@ import javax.persistence.Table;
 public class Categoria {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
     private String nome;
 
-    
     public Categoria() {
     }
 
@@ -23,14 +22,12 @@ public class Categoria {
         this.nome = nome;
     }
 
-
     public String getNome() {
         return nome;
     }
 
-
     public void setNome(String nome) {
         this.nome = nome;
     }
-    
+
 }

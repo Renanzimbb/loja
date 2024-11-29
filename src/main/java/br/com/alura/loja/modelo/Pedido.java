@@ -1,4 +1,4 @@
-package br.com.alura.loja.modelo;
+    package br.com.alura.loja.modelo;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

@@ -1,3 +1,10 @@
+br/com/alura/loja/modelo/Cliente.class
 br/com/alura/loja/modelo/Produto.class
+br/com/alura/loja/modelo/Pedido.class
+br/com/alura/loja/modelo/Categoria.class
+br/com/alura/loja/util/JPAUtil.class
+br/com/alura/loja/dao/CategoriaDao.class
 br/com/alura/Main.class
+br/com/alura/loja/modelo/ItemPedido.class
 br/com/alura/loja/modelo/testes/CadastroProduto.class
+br/com/alura/loja/dao/ProdutoDao.class
